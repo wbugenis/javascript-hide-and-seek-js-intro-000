@@ -15,7 +15,6 @@ function increaseRankBy(n) {
   let children = list1.children;
   
   for(let i = 0, l = children.length; i < l; i++) {
-    console.log("children " + i + " is " + children[i]);
     children[i].innerHTML = parseInt(children[i]) + n;
     }
       
