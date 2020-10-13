@@ -12,16 +12,16 @@ function increaseRankBy(n) {
   const list1 = lists[0];
   const list2 = lists[1];
   
-  let children = list1.children;
+  let child = list1.children;
   
-  for(let i = 0, l = children.length; i < l; i++) {
-    children[i].innerHTML = parseInt(children[i]) + n;
+  for(let i = 0, l = child.length; i < l; i++) {
+    child[i].innerHTML = parseInt(child[i]) + n;
     }
       
-  children = list2.children;
+  child = list2.children;
   
-  for(let i = 0, l = children.length; i < l; i++) {
-    children[i].innerHTML = parseInt(children[i]) + n;
+  for(let i = 0, l = child.length; i < l; i++) {
+    child[i].innerHTML = parseInt(child[i]) + n;
     }
 }
 
